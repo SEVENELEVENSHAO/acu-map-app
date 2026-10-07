@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {pinyin} from 'pinyin-pro';
 
 export const ACUPUNCTURE_CHANNELS=[
  ['LU','Lung','#c9d5d8'],['LI','Large intestine','#f1f3ee'],['ST','Stomach','#f2dc4a'],['SP','Spleen','#e98632'],
@@ -15,7 +16,7 @@ function createPointTexture(){const canvas=document.createElement('canvas');canv
 function nativePosition(point){const [x,y,z]=point.sourcePosition;return new THREE.Vector3(-x,y,z);}
 function cloneModels(models={}){const output={Male:{},Female:{}};for(const model of Object.keys(output))for(const [key,value] of Object.entries(models[model]||{}))if(Array.isArray(value)&&value.length===3&&value.every(Number.isFinite))output[model][key]=value.slice();return output;}
 function titleCase(value=''){return value.replace(/\b\w/g,character=>character.toUpperCase());}
-function pointLabel(point,channel){const pinyin=point.names?.pinyin||point.displayName||point.id,chinese=point.names?.chinese;return `${titleCase(channel.name)} ${point.number} · ${pinyin}${chinese?` · ${chinese}`:''}`;}
+function pointLabel(point,channel){const chinese=point.names?.chinese,sourcePinyin=point.names?.pinyin||point.displayName||point.id,romanized=chinese?pinyin(chinese,{toneType:'symbol',type:'array'}).join(''):sourcePinyin,pinyinName=romanized.charAt(0).toLocaleUpperCase()+romanized.slice(1);return `${titleCase(channel.name)} ${point.number} · ${pinyinName}${chinese?` · ${chinese}`:''}`;}
 
 export class AcupunctureLayer{
  constructor(scene,onSelect,onEditState=()=>{}){this.scene=scene;this.onSelect=onSelect;this.onEditState=onEditState;this.zoneGroup=new THREE.Group();this.zoneGroup.name='Computed meridian skin zones';this.group=new THREE.Group();this.group.name='Native APK acupuncture overlay';this.scene.add(this.zoneGroup,this.group);this.zoneRoot=null;this.pointTexture=createPointTexture();this.data=null;this.surfacePaths=null;this.model='Male';this.showPoints=false;this.showLines=false;this.showZones=true;this.dashed=true;this.channels=new Set(CHANNELS.keys());this.pointObject=null;this.highlightObject=null;this.highlightIds=new Set();this.pointRecords=[];this.recordByKey=new Map();this.selected=null;this.selectedKeys=new Set();this.editing=false;this.dragging=null;this.overrides={Male:{},Female:{}};this.history=[];this.dirty=false;this.reduceMotion=matchMedia?.('(prefers-reduced-motion: reduce)')?.matches??false;}

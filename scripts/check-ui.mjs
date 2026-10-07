@@ -53,12 +53,12 @@ try {
     await result.click();
     await page.waitForSelector('#point-panel', { state: 'attached' });
     if (await page.locator('#point-panel').getAttribute('aria-hidden') !== 'true') throw new Error(`${viewport.name}: Find Point panel did not slide closed after selection`);
-    await page.waitForFunction(() => document.querySelector('#point-summary-label')?.textContent === 'Large Intestine 4 · Hegu · 合谷');
+    await page.waitForFunction(() => document.querySelector('#point-summary-label')?.textContent === 'Large Intestine 4 · Hégǔ · 合谷');
     if (!(await page.locator('#selection-toggle').getAttribute('aria-label'))?.includes('Both sides selected')) throw new Error(`${viewport.name}: menu selection did not select both sides`);
     if (await page.locator('#selection-drawer').getAttribute('aria-hidden') !== 'true') throw new Error(`${viewport.name}: full details opened without an explicit action`);
     await page.locator('#selection-toggle').click();
     await page.waitForSelector('#selection-drawer.is-open');
-    await page.waitForFunction(() => document.querySelector('#selected-name')?.textContent === 'Large Intestine 4 · Hegu · 合谷');
+    await page.waitForFunction(() => document.querySelector('#selected-name')?.textContent === 'Large Intestine 4 · Hégǔ · 合谷');
     await page.waitForFunction(() => document.querySelector('#ruler-count')?.textContent === 'LI4 · 3', undefined, { timeout: 120_000 });
     await page.locator('#ruler-menu summary').click();
     if (!(await page.locator('#ruler-selection').textContent()).includes('LI4 uses 3 reference marks')) throw new Error(`${viewport.name}: selected point ruler summary is wrong`);
