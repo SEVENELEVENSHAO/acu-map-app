@@ -1,0 +1,666 @@
+:root {
+  --bg: hsl(204 30% 8%);
+  --surface: hsl(203 24% 14%);
+  --raised: hsl(202 20% 20%);
+  --text: hsl(186 18% 95%);
+  --muted: hsl(196 12% 72%);
+  --accent: hsl(163 48% 68%);
+  --border: hsl(202 16% 34%);
+  --control-raised: hsl(201 22% 18% / .96);
+}
+
+.brand-mark {
+  position: absolute;
+  z-index: 8;
+  top: max(16px, env(safe-area-inset-top));
+  left: max(16px, env(safe-area-inset-left));
+  display: grid;
+  grid-template-columns: 10px auto;
+  column-gap: 9px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid hsl(0 0% 100% / .16);
+  border-radius: 10px;
+  background: hsl(201 22% 16% / .88);
+  backdrop-filter: blur(14px);
+}
+
+.brand-mark > span {
+  grid-row: 1 / 3;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px hsl(163 48% 68% / .14);
+}
+
+.brand-mark strong {
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.1;
+  letter-spacing: -.01em;
+}
+
+.brand-mark small {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.1;
+}
+
+#drawing-menu,
+#body-map-menu,
+#heart-motion,
+#systems,
+.explore-content nav,
+.texture-setting,
+#system-actions,
+#selection-actions,
+#selection-drawer .actions,
+.explore-content .actions {
+  display: none !important;
+}
+
+.floating-tools {
+  max-width: calc(100vw - 190px);
+}
+
+.floating-tools details summary,
+.floating-tools > button,
+.floating-tools .area-select,
+.model-toggle {
+  border-color: hsl(0 0% 100% / .2) !important;
+  box-shadow: 0 7px 24px hsl(204 50% 3% / .24);
+  backdrop-filter: blur(14px);
+}
+
+.floating-tools details[open] summary {
+  border-color: var(--accent) !important;
+  color: var(--accent);
+}
+
+#layers-menu summary small,
+#ruler-menu summary small {
+  margin-left: 6px;
+  color: var(--accent);
+}
+
+.explore-content,
+.acupuncture-content,
+.layers-content,
+.ruler-content {
+  border-color: hsl(0 0% 100% / .18);
+  background: hsl(201 23% 14% / .97);
+  box-shadow: 0 18px 56px hsl(204 60% 2% / .58);
+}
+
+.layers-content {
+  position: absolute;
+  top: 54px;
+  right: 0;
+  width: min(300px, calc(100vw - 24px));
+  padding: 14px;
+  border: 1px solid hsl(0 0% 100% / .18);
+  border-radius: 12px;
+  background: hsl(201 23% 14% / .97);
+  box-shadow: 0 18px 56px hsl(204 60% 2% / .58);
+}
+
+.ruler-content {
+  position: absolute;
+  top: 54px;
+  right: 0;
+  width: min(320px, calc(100vw - 24px));
+  padding: 14px;
+  border: 1px solid hsl(0 0% 100% / .18);
+  border-radius: 12px;
+  background: hsl(201 23% 14% / .97);
+  box-shadow: 0 18px 56px hsl(204 60% 2% / .58);
+}
+
+.ruler-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ruler-heading strong,
+.ruler-heading span {
+  display: block;
+}
+
+.ruler-heading span,
+.ruler-content > p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+#ruler-master {
+  min-width: 102px;
+  min-height: 40px;
+  padding: 7px 11px;
+  white-space: nowrap;
+}
+
+#ruler-master[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.ruler-selection {
+  margin-top: 12px;
+  padding: 11px 12px;
+  border: 1px solid hsl(0 0% 100% / .14);
+  border-radius: 9px;
+  color: var(--text);
+  background: hsl(0 0% 100% / .055);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.ruler-content > p {
+  margin: 12px 0 0;
+}
+
+.layers-content > strong,
+.layers-content > span {
+  display: block;
+}
+
+.layers-content > span,
+.layers-content > p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.layers-content > p {
+  margin: 12px 0 0;
+}
+
+.section-toggle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: 12px 0 8px;
+}
+
+.section-toggle button,
+#line-style {
+  min-height: 40px;
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+#line-style {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 9px;
+  justify-content: flex-start;
+}
+
+#line-style i {
+  width: 30px;
+  height: 2px;
+  background: repeating-linear-gradient(90deg, currentColor 0 5px, transparent 5px 9px);
+}
+
+.explore-content {
+  width: min(390px, calc(100vw - 24px));
+  padding: 16px;
+}
+
+#search {
+  border-color: hsl(0 0% 100% / .18);
+  border-radius: 8px;
+  background: hsl(204 30% 9%);
+}
+
+#structures {
+  max-height: min(460px, calc(100dvh - 220px));
+}
+
+.structure {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 5px 12px;
+  min-height: 52px;
+  margin: 0;
+  padding: 9px 10px;
+  border-bottom: 1px solid hsl(0 0% 100% / .08);
+  border-radius: 0;
+}
+
+.structure:hover,
+.structure:focus-visible {
+  background: hsl(163 48% 68% / .1);
+}
+
+.structure strong {
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.structure small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.structure .point-side {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: center;
+  min-width: 42px;
+  color: var(--accent);
+  text-align: right;
+}
+
+.acupuncture-channels button {
+  border-color: hsl(0 0% 100% / .13);
+}
+
+#selection-drawer {
+  width: min(400px, calc(100vw - 52px));
+  border-color: hsl(0 0% 100% / .18);
+  background: hsl(201 23% 14% / .96);
+  backdrop-filter: blur(18px);
+}
+
+#selected-name {
+  letter-spacing: -.02em;
+}
+
+#point-panel {
+  position: fixed;
+  z-index: 18;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(390px, calc(100vw - 36px));
+  overflow-y: auto;
+  padding: max(20px, env(safe-area-inset-top)) 18px max(24px, env(safe-area-inset-bottom));
+  border-left: 1px solid hsl(0 0% 100% / .18);
+  background: hsl(201 23% 13% / .98);
+  box-shadow: -14px 0 48px hsl(204 60% 2% / .56);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(calc(100% + 18px));
+  transition: transform 220ms ease-out, opacity 170ms ease-out, visibility 0s linear 220ms;
+}
+
+#point-panel.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.point-panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.point-panel-header h2 {
+  margin: 4px 0 0;
+  font-size: 22px;
+  letter-spacing: -.015em;
+}
+
+.point-panel-header button {
+  min-height: 40px;
+  padding: 7px 10px;
+}
+
+#point-panel > label {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+#point-panel #search {
+  width: 100%;
+  margin: 7px 0 16px;
+  padding: 11px 12px;
+  border-color: hsl(0 0% 100% / .18);
+  border-radius: 8px;
+  background: hsl(204 30% 9%);
+}
+
+#point-meridians {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+#point-meridians button {
+  min-width: 0;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 9px;
+  text-align: left;
+  background: var(--bg);
+}
+
+#point-meridians button i {
+  flex: none;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--channel-color);
+}
+
+#point-meridians button span {
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#point-meridians button[aria-pressed="true"] {
+  color: var(--text);
+  background: hsl(163 48% 68% / .13);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.point-list-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 20px 0 10px;
+}
+
+.point-list-heading strong {
+  font-size: 14px;
+}
+
+.point-list-heading #count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+#point-panel #structures {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 7px;
+  max-height: none;
+  overflow: visible;
+}
+
+.point-tile {
+  aspect-ratio: 1;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 0;
+  overflow: hidden;
+  border-color: hsl(0 0% 100% / .15);
+  border-radius: 8px;
+  background: hsl(204 30% 9%);
+  text-align: center;
+}
+
+.point-tile:hover,
+.point-tile:focus-visible {
+  border-color: var(--accent);
+  background: hsl(163 48% 68% / .1);
+}
+
+.point-tile .point-chinese,
+.point-tile strong {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  padding: 3px;
+  line-height: 1;
+}
+
+.point-tile .point-chinese {
+  align-self: stretch;
+  font-size: 16px;
+}
+
+.point-tile strong {
+  align-self: stretch;
+  border-top: 1px solid hsl(0 0% 100% / .1);
+  color: var(--accent);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.point-empty {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 28px 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.point-summary {
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  bottom: max(22px, env(safe-area-inset-bottom));
+  min-height: 44px;
+  max-width: min(620px, calc(100vw - 40px));
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px 10px 15px;
+  border-color: hsl(0 0% 100% / .2);
+  background: hsl(201 23% 14% / .96);
+  box-shadow: 0 10px 34px hsl(204 60% 2% / .42);
+  transform: translateX(-50%);
+  backdrop-filter: blur(16px);
+}
+
+.point-summary[hidden] { display: none; }
+.point-summary span { overflow: hidden; font-size: 14px; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+.point-summary i { color: var(--accent); font-size: 22px; font-style: normal; line-height: 1; }
+
+#prescription-toggle small {
+  min-width: 19px;
+  margin-left: 5px;
+  padding: 2px 5px;
+  border-radius: 999px;
+  color: var(--bg);
+  background: var(--accent);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+#prescription-drawer {
+  position: fixed;
+  z-index: 18;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(430px, calc(100vw - 36px));
+  overflow-y: auto;
+  padding: max(20px, env(safe-area-inset-top)) 18px max(24px, env(safe-area-inset-bottom));
+  border-left: 1px solid hsl(0 0% 100% / .18);
+  background: hsl(201 23% 13% / .98);
+  box-shadow: -14px 0 48px hsl(204 60% 2% / .56);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(calc(100% + 18px));
+  transition: transform 220ms ease-out, opacity 170ms ease-out, visibility 0s linear 220ms;
+}
+
+#prescription-drawer.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.prescription-header,
+.prescription-editor-heading,
+.prescription-section-heading,
+.prescription-actions,
+.prescription-editor-actions,
+.prescription-card footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.prescription-header h2,
+.prescription-editor-heading h3,
+.prescription-section-heading h3 {
+  margin: 4px 0 0;
+  letter-spacing: -.015em;
+}
+
+.prescription-header h2 { font-size: 22px; }
+.prescription-header button,
+.prescription-editor-heading button { min-height: 40px; padding: 7px 10px; }
+.prescription-actions { margin: 18px 0 14px; }
+.prescription-actions button { flex: 1; }
+.prescription-search,
+.prescription-editor label { display: grid; gap: 7px; color: var(--muted); font-size: 13px; line-height: 1.4; }
+.prescription-search input,
+.prescription-editor input,
+.prescription-editor textarea { width: 100%; padding: 10px 11px; border: 1px solid var(--border); border-radius: 8px; color: var(--text); background: var(--bg); resize: vertical; }
+.prescription-editor textarea { min-height: 80px; font: inherit; }
+.prescription-editor label small { font-weight: 400; }
+.prescription-editor { margin: 16px 0; padding: 14px; border: 1px solid color-mix(in srgb,var(--accent) 54%,var(--border)); border-radius: 10px; background: hsl(163 48% 68% / .055); }
+.prescription-editor[hidden] { display: none; }
+.prescription-editor { display: grid; gap: 13px; }
+.prescription-editor-actions { flex-wrap: wrap; justify-content: flex-end; }
+.prescription-editor-actions button { min-height: 40px; padding: 7px 10px; font-size: 12px; }
+#prescription-editor-status { min-height: 18px; margin: 0; color: var(--accent); font-size: 12px; line-height: 1.5; }
+.prescription-section { margin-top: 20px; }
+.prescription-section-heading { align-items: flex-end; padding-bottom: 8px; border-bottom: 1px solid hsl(0 0% 100% / .12); }
+.prescription-section-heading h3 { font-size: 15px; }
+.prescription-section-heading small { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
+.prescription-section-heading > span { color: var(--accent); font-size: 12px; font-variant-numeric: tabular-nums; }
+.prescription-list { display: grid; gap: 7px; margin-top: 8px; }
+.prescription-card { overflow: hidden; border: 1px solid hsl(0 0% 100% / .12); border-radius: 9px; background: hsl(0 0% 100% / .035); }
+.prescription-card[aria-pressed="true"] { border-color: var(--accent); background: hsl(163 48% 68% / .1); box-shadow: inset 3px 0 0 var(--accent); }
+.prescription-select { width: 100%; min-height: 44px; display: grid; gap: 5px; padding: 11px; border: 0; border-radius: 0; text-align: left; background: transparent; }
+.prescription-select strong { color: var(--text); font-size: 13px; line-height: 1.35; }
+.prescription-select > span { color: var(--muted); font-size: 12px; line-height: 1.4; }
+.prescription-select .prescription-points { color: var(--accent); font-size: 11px; overflow-wrap: anywhere; }
+.prescription-card footer { justify-content: flex-end; padding: 6px 8px; border-top: 1px solid hsl(0 0% 100% / .08); }
+.prescription-card footer small { margin-right: auto; color: var(--muted); font-size: 10px; }
+.prescription-card footer button { min-height: 34px; padding: 5px 8px; border: 0; background: transparent; font-size: 11px; }
+.prescription-empty,.prescription-notice { color: var(--muted); font-size: 12px; line-height: 1.5; }
+.prescription-empty { margin: 0; padding: 16px 8px; text-align: center; }
+.prescription-notice { margin: 22px 0 0; padding-top: 14px; border-top: 1px solid hsl(0 0% 100% / .12); }
+
+@media (max-width: 760px) {
+  .brand-mark {
+    top: auto;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    left: 12px;
+    padding: 8px 10px;
+  }
+
+  .brand-mark small {
+    display: none;
+  }
+
+  .brand-mark > span {
+    grid-row: 1;
+  }
+
+  .floating-tools {
+    max-width: calc(100vw - 20px);
+  }
+
+  .acupuncture-content,
+  .explore-content,
+  .layers-content,
+  .ruler-content {
+    position: fixed;
+    top: 64px;
+    right: 10px;
+    left: 10px;
+    width: auto;
+    max-height: calc(100dvh - 84px);
+    overflow-y: auto;
+  }
+
+  .acupuncture-channels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #selection-drawer {
+    top: auto;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+    width: auto;
+    max-height: 58dvh;
+    padding: 14px 16px calc(20px + env(safe-area-inset-bottom));
+    border: 1px solid hsl(0 0% 100% / .18);
+    border-bottom: 0;
+    border-radius: 14px 14px 0 0;
+    transform: translateY(calc(100% + 16px));
+  }
+
+  #selection-drawer.is-open {
+    transform: translateY(0);
+  }
+
+  #prescription-drawer {
+    width: min(390px, calc(100vw - 18px));
+    padding-inline: 14px;
+  }
+
+  #point-panel {
+    width: min(390px, calc(100vw - 18px));
+    padding-inline: 14px;
+  }
+
+  #point-panel #structures {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .point-summary {
+    bottom: max(66px, calc(env(safe-area-inset-bottom) + 54px));
+    max-width: calc(100vw - 24px);
+  }
+}
+
+@media (max-width: 390px) {
+  .model-toggle button {
+    padding-inline: 9px;
+  }
+
+  .floating-tools > button,
+  .floating-tools details summary {
+    padding-inline: 9px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+  }
+}

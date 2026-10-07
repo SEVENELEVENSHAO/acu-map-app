@@ -1,0 +1,2017 @@
+{
+  "schema": "acu-map-apk-point-rulers",
+  "version": 1,
+  "source": "免费找穴位神器.apk",
+  "reviewStatus": "pending",
+  "behavior": "Show only the ruler objects listed by the selected point's KyungHyulPointB.ActiveRulers/RulersName arrays.",
+  "sourceRecords": 1341,
+  "points": {
+    "BL0": [],
+    "BL1": [],
+    "BL10": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL11": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL12": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL13": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL14": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL15": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL16": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL17": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL18": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL19": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL2": [
+      "Ruler_Head01_2",
+      "Ruler_Head09_0"
+    ],
+    "BL20": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL21": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL22": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL23": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL24": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL25": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL26": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL27": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL28": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL29": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL3": [
+      "Ruler_Head03_1",
+      "Ruler_Head09_0"
+    ],
+    "BL30": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL31": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL32": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL33": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL34": [
+      "Ruler_Hip01_1"
+    ],
+    "BL35": [
+      "Ruler_Leg02_2",
+      "Ruler_Leg14_1",
+      "Ruler_Leg20_1",
+      "Ruler_Leg00_1"
+    ],
+    "BL36": [
+      "Ruler_Leg02_2",
+      "Ruler_Leg14_1",
+      "Ruler_Leg20_1",
+      "Ruler_Leg00_1"
+    ],
+    "BL37": [
+      "Ruler_Leg02_2",
+      "Ruler_Leg14_1",
+      "Ruler_Leg20_1",
+      "Ruler_Leg00_1"
+    ],
+    "BL38": [
+      "Ruler_Leg14_1",
+      "Ruler_Leg20_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "BL39": [
+      "Ruler_Leg00_1",
+      "Ruler_Leg01_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg14_1",
+      "Ruler_Leg20_1"
+    ],
+    "BL4": [
+      "Ruler_Head03_1",
+      "Ruler_Head09_0",
+      "Ruler_Head01_5"
+    ],
+    "BL40": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL41": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL42": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL43": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL44": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL45": [
+      "Ruler_Back03_1",
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL46": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL47": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL48": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL49": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL5": [
+      "Ruler_Head05_1",
+      "Ruler_Head09_0"
+    ],
+    "BL50": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL51": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL52": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL53": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7"
+    ],
+    "BL54": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL55": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL56": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL57": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL58": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL59": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL6": [
+      "Ruler_Head05_1",
+      "Ruler_Head09_0"
+    ],
+    "BL60": [
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "BL61": [],
+    "BL62": [],
+    "BL63": [],
+    "BL64": [],
+    "BL65": [],
+    "BL66": [],
+    "BL7": [
+      "Ruler_Head09_1",
+      "Ruler_Head05_1",
+      "Ruler_Head07_1"
+    ],
+    "BL8": [
+      "Ruler_Head02_3",
+      "Ruler_Head07_1"
+    ],
+    "BL9": [
+      "Ruler_Head02_2",
+      "Ruler_Head07_1"
+    ],
+    "CV0": [
+      "Ruler_Hip01_2"
+    ],
+    "CV1": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV10": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV11": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV12": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV13": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV14": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV15": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV16": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV17": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV18": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV19": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV2": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV20": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV21": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV22": [],
+    "CV23": [],
+    "CV3": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV4": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV5": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV6": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV7": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV8": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "CV9": [
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest04_5",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "GB0": [
+      "Ruler_Head04_1"
+    ],
+    "GB1": [
+      "Ruler_Head04_1"
+    ],
+    "GB10": [
+      "Ruler_Head03_3",
+      "Ruler_Head01_5",
+      "Ruler_Head02_1",
+      "Ruler_Head09_2"
+    ],
+    "GB11": [
+      "Ruler_Head03_3",
+      "Ruler_Head01_5",
+      "Ruler_Head02_1",
+      "Ruler_Head09_2"
+    ],
+    "GB12": [
+      "Ruler_Head03_4",
+      "Ruler_Head09_0",
+      "Ruler_Head05_1",
+      "Ruler_Head01_6"
+    ],
+    "GB13": [
+      "Ruler_Head03_4",
+      "Ruler_Head09_0",
+      "Ruler_Head05_1",
+      "Ruler_Head01_6"
+    ],
+    "GB14": [
+      "Ruler_Head03_4",
+      "Ruler_Head09_0",
+      "Ruler_Head05_1",
+      "Ruler_Head01_6"
+    ],
+    "GB15": [
+      "Ruler_Head09_0",
+      "Ruler_Head05_2",
+      "Ruler_Head05_1",
+      "Ruler_Head09_1"
+    ],
+    "GB16": [
+      "Ruler_Head09_0",
+      "Ruler_Head05_2",
+      "Ruler_Head05_1",
+      "Ruler_Head09_1"
+    ],
+    "GB17": [
+      "Ruler_Head09_0",
+      "Ruler_Head05_2",
+      "Ruler_Head05_1",
+      "Ruler_Head09_1"
+    ],
+    "GB18": [
+      "Ruler_Head05_3",
+      "Ruler_Head07_1",
+      "Ruler_Head01_7"
+    ],
+    "GB19": [
+      "Ruler_Head05_3",
+      "Ruler_Head07_1",
+      "Ruler_Head01_7"
+    ],
+    "GB2": [
+      "Ruler_Head01_4",
+      "Ruler_Head04_1"
+    ],
+    "GB20": [
+      "Ruler_Back01_1",
+      "Ruler_Back02_3"
+    ],
+    "GB21": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "GB22": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "GB23": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest06_2",
+      "Ruler_Chest08_1"
+    ],
+    "GB24": [
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest08_1"
+    ],
+    "GB25": [
+      "Ruler_Chest04_3",
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest08_1"
+    ],
+    "GB26": [
+      "Ruler_Hip02_1",
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1"
+    ],
+    "GB27": [
+      "Ruler_Hip02_1",
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1"
+    ],
+    "GB28": [
+      "Ruler_Hip02_1",
+      "Ruler_Leg20_1",
+      "Ruler_Hip03_1"
+    ],
+    "GB29": [
+      "Ruler_Hip03_1",
+      "Ruler_Leg20_1"
+    ],
+    "GB3": [
+      "Ruler_Head04_1",
+      "Ruler_Head03_1",
+      "Ruler_Head02_1"
+    ],
+    "GB30": [
+      "Ruler_Leg20_1",
+      "Ruler_Leg14_1",
+      "Ruler_Leg18_1",
+      "Ruler_Leg00_1",
+      "Ruler_Leg00_11"
+    ],
+    "GB31": [
+      "Ruler_Leg20_1",
+      "Ruler_Leg14_1",
+      "Ruler_Leg18_1",
+      "Ruler_Leg00_1",
+      "Ruler_Leg00_11"
+    ],
+    "GB32": [
+      "Ruler_Leg20_1",
+      "Ruler_Leg14_1",
+      "Ruler_Leg18_1",
+      "Ruler_Leg00_1",
+      "Ruler_Leg00_11"
+    ],
+    "GB33": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB34": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB35": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB36": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB37": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB38": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB39": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg16_3",
+      "Ruler_Leg00_1"
+    ],
+    "GB4": [
+      "Ruler_Head04_1",
+      "Ruler_Head03_1",
+      "Ruler_Head02_1"
+    ],
+    "GB40": [],
+    "GB41": [],
+    "GB42": [],
+    "GB43": [],
+    "GB5": [
+      "Ruler_Head04_1",
+      "Ruler_Head03_1",
+      "Ruler_Head02_1"
+    ],
+    "GB6": [
+      "Ruler_Head04_1",
+      "Ruler_Head03_1",
+      "Ruler_Head02_1"
+    ],
+    "GB7": [
+      "Ruler_Head02_1",
+      "Ruler_Head01_5",
+      "Ruler_Head04_1"
+    ],
+    "GB8": [
+      "Ruler_Head02_1",
+      "Ruler_Head01_5",
+      "Ruler_Head04_1"
+    ],
+    "GB9": [
+      "Ruler_Head03_3",
+      "Ruler_Head01_5",
+      "Ruler_Head02_1",
+      "Ruler_Head09_2"
+    ],
+    "GV0": [
+      "Ruler_Hip01_1"
+    ],
+    "GV1": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV10": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV11": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV12": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV13": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV14": [
+      "Ruler_Head07_1",
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV15": [
+      "Ruler_Head07_1",
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV16": [
+      "Ruler_Head07_1",
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV17": [
+      "Ruler_Head07_1",
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV18": [
+      "Ruler_Head07_1",
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV19": [
+      "Ruler_Head07_1",
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV2": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV20": [
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head07_1",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV21": [
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head07_1",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV22": [
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head07_1",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV23": [
+      "Ruler_Head05_1",
+      "Ruler_Head05_3",
+      "Ruler_Head07_1",
+      "Ruler_Head09_0",
+      "Ruler_Head09_1",
+      "Ruler_Head09_2"
+    ],
+    "GV24": [
+      "Ruler_Face01_1",
+      "Ruler_Face03_1"
+    ],
+    "GV25": [
+      "Ruler_Face01_1",
+      "Ruler_Face03_1"
+    ],
+    "GV26": [
+      "Ruler_Face01_1",
+      "Ruler_Face03_1"
+    ],
+    "GV27": [],
+    "GV3": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV4": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV5": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV6": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV7": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV8": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "GV9": [
+      "Ruler_Back03_2",
+      "Ruler_Back03_3",
+      "Ruler_Back03_4",
+      "Ruler_Back03_5",
+      "Ruler_Back03_6",
+      "Ruler_Back03_7",
+      "Ruler_Back02_2"
+    ],
+    "HT0": [
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_1"
+    ],
+    "HT1": [
+      "Ruler_Arm09_3",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_1"
+    ],
+    "HT2": [
+      "Ruler_Arm09_3",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "HT3": [
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "HT4": [
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "HT5": [
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "HT6": [
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "HT7": [],
+    "HT8": [],
+    "KI0": [
+      "Ruler_Foot03_1",
+      "Ruler_Foot03_2"
+    ],
+    "KI1": [
+      "Ruler_Foot03_1",
+      "Ruler_Foot03_2"
+    ],
+    "KI10": [
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1",
+      "Ruler_Leg18_2"
+    ],
+    "KI11": [
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1",
+      "Ruler_Leg18_2"
+    ],
+    "KI12": [
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1",
+      "Ruler_Leg18_2"
+    ],
+    "KI13": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest08_1"
+    ],
+    "KI14": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest08_1"
+    ],
+    "KI15": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest08_1"
+    ],
+    "KI16": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1",
+      "Ruler_Chest04_4"
+    ],
+    "KI17": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1",
+      "Ruler_Chest04_4"
+    ],
+    "KI18": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1",
+      "Ruler_Chest04_4"
+    ],
+    "KI19": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1",
+      "Ruler_Chest04_4"
+    ],
+    "KI2": [
+      "Ruler_Foot03_1",
+      "Ruler_Foot03_2"
+    ],
+    "KI20": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest08_1",
+      "Ruler_Chest06_2"
+    ],
+    "KI21": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_2"
+    ],
+    "KI22": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_2"
+    ],
+    "KI23": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_1"
+    ],
+    "KI24": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_1"
+    ],
+    "KI25": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_1"
+    ],
+    "KI26": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_1"
+    ],
+    "KI3": [
+      "Ruler_Foot03_1",
+      "Ruler_Foot03_2"
+    ],
+    "KI4": [
+      "Ruler_Foot03_1",
+      "Ruler_Foot03_2"
+    ],
+    "KI5": [
+      "Ruler_Foot03_1",
+      "Ruler_Foot03_2"
+    ],
+    "KI6": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "KI7": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "KI8": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "KI9": [
+      "Ruler_Leg00_1",
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_2"
+    ],
+    "LI0": [],
+    "LI1": [],
+    "LI10": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "LI11": [
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_4",
+      "Ruler_Arm09_3"
+    ],
+    "LI12": [
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_4",
+      "Ruler_Arm09_3"
+    ],
+    "LI13": [
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_1",
+      "Ruler_Arm09_4",
+      "Ruler_Arm09_1"
+    ],
+    "LI14": [],
+    "LI15": [
+      "Ruler_Back01_1"
+    ],
+    "LI16": [],
+    "LI17": [
+      "Ruler_Neck04_0"
+    ],
+    "LI18": [
+      "Ruler_Face02_1",
+      "Ruler_Face01_1",
+      "Ruler_Face03_1"
+    ],
+    "LI19": [
+      "Ruler_Face02_1",
+      "Ruler_Face01_1",
+      "Ruler_Face03_1"
+    ],
+    "LI2": [
+      "Ruler_Hand02_1",
+      "Ruler_Hand02_2"
+    ],
+    "LI3": [
+      "Ruler_Hand02_2",
+      "Ruler_Hand02_1"
+    ],
+    "LI4": [
+      "Ruler_Arm00_3",
+      "Ruler_Hand02_1",
+      "Ruler_Hand02_2"
+    ],
+    "LI5": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "LI6": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "LI7": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "LI8": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "LI9": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "LR0": [],
+    "LR1": [],
+    "LR10": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg18_2",
+      "Ruler_Leg14_1",
+      "Ruler_Leg00_1",
+      "Ruler_Leg00_11",
+      "Ruler_Hip01_3"
+    ],
+    "LR11": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg18_2",
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_5"
+    ],
+    "LR12": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1"
+    ],
+    "LR13": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1"
+    ],
+    "LR2": [],
+    "LR3": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "LR4": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "LR5": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "LR6": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "LR7": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "LR8": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg18_2",
+      "Ruler_Leg14_1",
+      "Ruler_Leg00_1",
+      "Ruler_Leg00_11",
+      "Ruler_Hip01_3"
+    ],
+    "LR9": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg18_2",
+      "Ruler_Leg14_1",
+      "Ruler_Leg00_1",
+      "Ruler_Leg00_11",
+      "Ruler_Hip01_3"
+    ],
+    "LU0": [
+      "Ruler_Chest01_1",
+      "Ruler_Chest06_1"
+    ],
+    "LU1": [
+      "Ruler_Chest01_1",
+      "Ruler_Chest06_1"
+    ],
+    "LU10": [],
+    "LU2": [
+      "Ruler_Arm04_1",
+      "Ruler_Arm00_1",
+      "Ruler_Arm09_1",
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2"
+    ],
+    "LU3": [
+      "Ruler_Arm04_1",
+      "Ruler_Arm00_1",
+      "Ruler_Arm09_1",
+      "Ruler_Arm09_2",
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2"
+    ],
+    "LU4": [
+      "Ruler_Arm05_1",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_1",
+      "Ruler_Arm09_2",
+      "Ruler_Arm12_2",
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2"
+    ],
+    "LU5": [
+      "Ruler_Arm05_1",
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_1",
+      "Ruler_Arm12_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm00_2"
+    ],
+    "LU6": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_1",
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm00_2"
+    ],
+    "LU7": [
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_1",
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm00_2"
+    ],
+    "LU8": [
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_1",
+      "Ruler_Arm12_3",
+      "Ruler_Arm00_3",
+      "Ruler_Arm00_2"
+    ],
+    "LU9": [
+      "Ruler_Hand02_1",
+      "Ruler_Hand02_2"
+    ],
+    "PC0": [
+      "Ruler_Chest06_2",
+      "Ruler_Chest06_1"
+    ],
+    "PC1": [
+      "Ruler_Arm09_1",
+      "Ruler_Arm00_1",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3"
+    ],
+    "PC2": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "PC3": [
+      "Ruler_Arm12_1",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "PC4": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_1",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "PC5": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_1",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "PC6": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "PC7": [],
+    "PC8": [],
+    "SI0": [],
+    "SI1": [],
+    "SI10": [
+      "Ruler_Back02_1",
+      "Ruler_Back03_1"
+    ],
+    "SI11": [
+      "Ruler_Back02_1",
+      "Ruler_Back03_1",
+      "Ruler_Back02_2"
+    ],
+    "SI12": [
+      "Ruler_Back02_2",
+      "Ruler_Back02_1",
+      "Ruler_Back02_3"
+    ],
+    "SI13": [
+      "Ruler_Back03_2",
+      "Ruler_Back02_2"
+    ],
+    "SI14": [
+      "Ruler_Back03_2",
+      "Ruler_Back02_2"
+    ],
+    "SI15": [
+      "Ruler_Neck04_0"
+    ],
+    "SI16": [],
+    "SI17": [
+      "Ruler_Face03_1",
+      "Ruler_Face02_1"
+    ],
+    "SI18": [
+      "Ruler_Head04_1",
+      "Ruler_Head02_1"
+    ],
+    "SI2": [],
+    "SI3": [],
+    "SI4": [
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_4",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "SI5": [
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_4",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "SI6": [
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_4",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3"
+    ],
+    "SI7": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm12_4",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3"
+    ],
+    "SI8": [
+      "Ruler_Arm00_1",
+      "Ruler_Arm01_1",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3"
+    ],
+    "SI9": [
+      "Ruler_Back02_1",
+      "Ruler_Back02_2"
+    ],
+    "SP0": [],
+    "SP1": [],
+    "SP10": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg20_1",
+      "Ruler_Leg18_2"
+    ],
+    "SP11": [
+      "Ruler_Leg20_1",
+      "Ruler_Leg18_2",
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1"
+    ],
+    "SP12": [
+      "Ruler_Leg20_1",
+      "Ruler_Chest04_5",
+      "Ruler_Chest05_1"
+    ],
+    "SP13": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Leg18_1"
+    ],
+    "SP14": [
+      "Ruler_Chest04_4",
+      "Ruler_Leg18_1"
+    ],
+    "SP15": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest08_1",
+      "Ruler_Chest04_3"
+    ],
+    "SP16": [
+      "Ruler_Chest06_2",
+      "Ruler_Chest08_1"
+    ],
+    "SP17": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "SP18": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "SP19": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "SP2": [],
+    "SP20": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest06_2"
+    ],
+    "SP3": [],
+    "SP4": [
+      "Ruler_Leg15_1",
+      "Ruler_Foot03_2"
+    ],
+    "SP5": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "SP6": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "SP7": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "SP8": [
+      "Ruler_Leg15_1",
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_2",
+      "Ruler_Leg00_1"
+    ],
+    "SP9": [
+      "Ruler_Leg18_0",
+      "Ruler_Leg18_3",
+      "Ruler_Leg20_1",
+      "Ruler_Leg00_11",
+      "Ruler_Leg00_1",
+      "Ruler_Hip01_3"
+    ],
+    "ST0": [
+      "Ruler_Face01_1",
+      "Ruler_Face02_1",
+      "Ruler_Face03_1"
+    ],
+    "ST1": [
+      "Ruler_Face01_1",
+      "Ruler_Face02_1",
+      "Ruler_Face03_1"
+    ],
+    "ST10": [],
+    "ST11": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest01_1"
+    ],
+    "ST12": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest01_1"
+    ],
+    "ST13": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest01_1"
+    ],
+    "ST14": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest01_1"
+    ],
+    "ST15": [
+      "Ruler_Chest06_1",
+      "Ruler_Chest04_1",
+      "Ruler_Chest01_1"
+    ],
+    "ST16": [
+      "Ruler_Chest04_1",
+      "Ruler_Chest06_2"
+    ],
+    "ST17": [],
+    "ST18": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest08_1",
+      "Ruler_Head09_1"
+    ],
+    "ST19": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest08_1"
+    ],
+    "ST2": [
+      "Ruler_Face01_1",
+      "Ruler_Face02_1",
+      "Ruler_Face03_1"
+    ],
+    "ST20": [
+      "Ruler_Chest04_2",
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1"
+    ],
+    "ST21": [
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1"
+    ],
+    "ST22": [
+      "Ruler_Chest04_3",
+      "Ruler_Chest08_1"
+    ],
+    "ST23": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest08_1",
+      "Ruler_Chest04_3"
+    ],
+    "ST24": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest08_1",
+      "Ruler_Chest05_1"
+    ],
+    "ST25": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1"
+    ],
+    "ST26": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1"
+    ],
+    "ST27": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1"
+    ],
+    "ST28": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_5"
+    ],
+    "ST29": [
+      "Ruler_Chest04_4",
+      "Ruler_Chest05_1",
+      "Ruler_Chest04_5"
+    ],
+    "ST3": [],
+    "ST30": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg18_1",
+      "Ruler_Leg20_1"
+    ],
+    "ST31": [
+      "Ruler_Leg18_3",
+      "Ruler_Hip01_3",
+      "Ruler_Leg00_11"
+    ],
+    "ST32": [
+      "Ruler_Leg18_3",
+      "Ruler_Hip01_3",
+      "Ruler_Leg00_11"
+    ],
+    "ST33": [
+      "Ruler_Leg18_3",
+      "Ruler_Hip01_3",
+      "Ruler_Leg00_11"
+    ],
+    "ST34": [
+      "Ruler_Leg18_3",
+      "Ruler_Leg16_1",
+      "Ruler_Leg20_1",
+      "Ruler_Leg00_1"
+    ],
+    "ST35": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1",
+      "Ruler_Leg00_1"
+    ],
+    "ST36": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1",
+      "Ruler_Leg00_1"
+    ],
+    "ST37": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1",
+      "Ruler_Leg00_1"
+    ],
+    "ST38": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1",
+      "Ruler_Leg00_1"
+    ],
+    "ST39": [
+      "Ruler_Leg16_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1",
+      "Ruler_Leg00_1"
+    ],
+    "ST4": [],
+    "ST40": [
+      "Ruler_Leg02_1",
+      "Ruler_Leg16_3",
+      "Ruler_Leg15_1"
+    ],
+    "ST41": [],
+    "ST42": [],
+    "ST43": [],
+    "ST44": [],
+    "ST5": [],
+    "ST6": [],
+    "ST7": [
+      "Ruler_Head01_1",
+      "Ruler_Head03_1",
+      "Ruler_Head09_0",
+      "Ruler_Head04_1",
+      "Ruler_Head01_3"
+    ],
+    "ST8": [
+      "Ruler_Neck04_0"
+    ],
+    "ST9": [],
+    "TE0": [],
+    "TE1": [],
+    "TE10": [
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3",
+      "Ruler_Arm09_4"
+    ],
+    "TE11": [
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3",
+      "Ruler_Arm09_4"
+    ],
+    "TE12": [
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3",
+      "Ruler_Arm09_4"
+    ],
+    "TE13": [
+      "Ruler_Arm00_1",
+      "Ruler_Arm03_1",
+      "Ruler_Back01_1",
+      "Ruler_Back02_3"
+    ],
+    "TE14": [
+      "Ruler_Back02_3",
+      "Ruler_Back01_1",
+      "Ruler_Back02_3"
+    ],
+    "TE15": [
+      "Ruler_Head03_2",
+      "Ruler_Head09_2"
+    ],
+    "TE16": [
+      "Ruler_Head03_2",
+      "Ruler_Head09_2",
+      "Ruler_Head03_3"
+    ],
+    "TE17": [
+      "Ruler_Head03_2",
+      "Ruler_Head09_2",
+      "Ruler_Head03_3"
+    ],
+    "TE18": [
+      "Ruler_Head03_2",
+      "Ruler_Head09_2",
+      "Ruler_Head03_3"
+    ],
+    "TE19": [
+      "Ruler_Head03_2",
+      "Ruler_Head09_2",
+      "Ruler_Head03_3",
+      "Ruler_Head02_1"
+    ],
+    "TE2": [],
+    "TE20": [
+      "Ruler_Head04_1"
+    ],
+    "TE21": [
+      "Ruler_Head04_1"
+    ],
+    "TE22": [
+      "Ruler_Head04_1"
+    ],
+    "TE3": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "TE4": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "TE5": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "TE6": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "TE7": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "TE8": [
+      "Ruler_Arm00_2",
+      "Ruler_Arm00_3",
+      "Ruler_Arm12_2",
+      "Ruler_Arm12_3",
+      "Ruler_Arm12_4"
+    ],
+    "TE9": [
+      "Ruler_Arm00_1",
+      "Ruler_Arm00_2",
+      "Ruler_Arm09_2",
+      "Ruler_Arm09_3",
+      "Ruler_Arm09_4"
+    ]
+  }
+}

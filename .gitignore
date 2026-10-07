@@ -1,0 +1,11 @@
+node_modules/
+app/src/main/assets/
+app/build/
+.gradle/
+.venv/
+recovered/
+verification/
+*.log
+*.apk
+__pycache__/
+*.pyc

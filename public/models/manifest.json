@@ -1,0 +1,8 @@
+{
+  "source": "免费找穴位神器.apk",
+  "reviewStatus": "pending",
+  "models": [
+    {"id": "Male", "label": "Male", "url": "models/acu-male.glb", "anatomyUrl": "models/anatomy-male.glb", "anatomySource": "免费找穴位神器.apk", "zonesUrl": "models/skin-zones-male.glb", "zonesSource": "computed from registered APK surface paths", "rulerUrl": "models/rulers-male.glb", "rulerSource": "免费找穴位神器.apk"},
+    {"id": "Female", "label": "Female", "url": "models/acu-female.glb", "anatomyUrl": "models/anatomy-female.glb", "anatomySource": "免费找穴位神器.apk", "zonesUrl": "models/skin-zones-female.glb", "zonesSource": "computed from registered APK surface paths", "rulerUrl": "models/rulers-female.glb", "rulerSource": "免费找穴位神器.apk"}
+  ]
+}

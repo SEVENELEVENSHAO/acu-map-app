@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0f1a21"><title>Acu Map · Point Explorer</title></head>
+<body>
+<main>
+ <section class="stage" aria-label="Interactive acupuncture model">
+  <canvas id="canvas" aria-label="Drag to rotate; pinch to zoom; tap an acupuncture point"></canvas>
+  <div class="brand-mark" aria-label="Acu Map"><span aria-hidden="true"></span><strong>Acu Map</strong><small>Native point explorer</small></div>
+  <div class="floating-tools" aria-label="Viewer controls">
+   <button id="point-panel-toggle" type="button" aria-controls="point-panel" aria-expanded="false">Find point</button>
+   <details id="acupuncture-menu"><summary>Meridians <small id="acupuncture-count">P · L · 皮</small></summary><div class="acupuncture-content"><div class="acupuncture-heading"><div><strong>Points &amp; meridians</strong><span>Choose channels shown on the native model.</span></div><div class="acupuncture-layer-toggles"><button id="acupuncture-points" type="button" aria-pressed="true">Points</button><button id="acupuncture-lines" type="button" aria-pressed="true">Lines</button><button id="acupuncture-zones" type="button" aria-pressed="true">Skin zones</button></div></div><div class="acupuncture-actions"><button id="acupuncture-all" type="button">Show all</button><button id="acupuncture-clear" type="button">Clear</button></div><div id="acupuncture-channels" class="acupuncture-channels" role="group" aria-label="Acupuncture meridians"></div><section class="acupuncture-editor"><div><strong>Point adjustment</strong><span id="acupuncture-edit-status">0 adjusted for Male.</span></div><button id="acupuncture-edit" type="button" aria-pressed="false">Edit points</button><div class="acupuncture-edit-actions"><button id="acupuncture-save" disabled>Save</button><button id="acupuncture-undo" disabled>Undo</button><button id="acupuncture-reset-point" disabled>Reset point</button><button id="acupuncture-reset-model" disabled>Reset model</button><button id="acupuncture-export">Export</button><button id="acupuncture-import">Import</button><input id="acupuncture-import-file" type="file" accept="application/json,.json" hidden></div></section><p>Computed skin zones expand evenly from each registered surface path. Study reference; practitioner review remains pending.</p></div></details>
+   <details id="layers-menu"><summary>Layers <small id="section-count">Full</small></summary><div class="layers-content"><strong>Section view</strong><span>Hide one side of the skin to reveal bones and internal organs. Points stay visible.</span><div class="section-toggle" role="group" aria-label="Body section view"><button id="section-full" type="button" aria-pressed="true">Full</button><button id="section-left" type="button" aria-pressed="false">Hide L</button><button id="section-right" type="button" aria-pressed="false">Hide R</button></div><button id="line-style" type="button" aria-pressed="true"><i aria-hidden="true"></i><span>Perforated meridian lines</span></button><p>Skin, bones, internal organs, points, and coordinates come from the supplied acupuncture APK.</p></div></details>
+   <details id="ruler-menu"><summary>Rulers <small id="ruler-count">Select point</small></summary><div class="ruler-content"><div class="ruler-heading"><div><strong>Point-specific rulers</strong><span>Automatically follows the selected acupoint.</span></div><button id="ruler-master" type="button" aria-label="Disable automatic point rulers" aria-pressed="true">Auto on</button></div><div id="ruler-selection" class="ruler-selection" role="status">Select an acupoint to show its original APK ruler reference.</div><p>Uses each point's original ruler list from the supplied APK. Not a screen ruler or clinically calibrated measurement; practitioner review remains pending.</p></div></details>
+   <div class="model-toggle" role="group" aria-label="Body model"><button id="model-male" type="button" aria-pressed="true">Male</button><button id="model-female" type="button" aria-pressed="false">Female</button></div><label class="model-label"><select id="model" aria-label="Body model"></select></label>
+   <button id="fit">Fit</button><button id="front">Front</button><button id="back">Back</button><button id="prescription-toggle" aria-controls="prescription-drawer" aria-expanded="false">Prescriptions <small id="prescription-count">0</small></button>
+  </div>
+  <div id="loading" role="status"><strong id="load-text">Preparing source model…</strong><progress id="progress"></progress><button id="retry" hidden>Retry loading</button></div>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <button id="selection-toggle" class="point-summary" type="button" aria-controls="selection-drawer" aria-expanded="false" hidden><span id="point-summary-label"></span><i aria-hidden="true">›</i></button>
+ </section>
+ <aside id="point-panel" aria-label="Find acupuncture point" aria-hidden="true">
+  <header class="point-panel-header"><div><span class="eyebrow">FIND POINT</span><h2>Browse by meridian</h2></div><button id="close-point-panel" type="button" aria-label="Close Find Point panel">Close</button></header>
+  <label for="search">Search by point code or name</label><input id="search" type="search" placeholder="Try LI4, Hegu, 合谷…" autocomplete="off" spellcheck="false">
+  <nav id="point-meridians" aria-label="Meridians"></nav>
+  <div class="point-list-heading"><strong id="point-panel-title"></strong><span id="count" role="status"></span></div>
+  <div id="structures" role="list" aria-label="Acupuncture points"></div>
+ </aside>
+ <aside id="selection-drawer" aria-label="Selected acupuncture point details" aria-hidden="true"><button id="close-selection" class="close-selection">Close</button><section class="selection"><span class="eyebrow">POINT DETAILS</span><h2 id="selected-name">Choose a point</h2><p id="selected-meta">Select a point to read its reference information.</p><div id="selected-info"></div></section></aside>
+ <aside id="prescription-drawer" aria-label="Acupuncture prescription library" aria-hidden="true">
+  <header class="prescription-header"><div><span class="eyebrow">POINT COMBINATIONS</span><h2>Prescriptions</h2></div><button id="close-prescriptions" type="button">Close</button></header>
+  <div class="prescription-actions"><button id="new-prescription" class="primary" type="button">New prescription</button><button id="clear-prescription" type="button" disabled>Clear highlight</button></div>
+  <label class="prescription-search" for="prescription-search">Search library and saved prescriptions<input id="prescription-search" type="search" placeholder="Try cough, headache, LU7…" autocomplete="off" spellcheck="false"></label>
+  <section id="prescription-editor" class="prescription-editor" hidden aria-labelledby="prescription-editor-title">
+   <div class="prescription-editor-heading"><div><span class="eyebrow">CUSTOM</span><h3 id="prescription-editor-title">New prescription</h3></div><button id="cancel-prescription" type="button">Cancel</button></div>
+   <input id="prescription-id" type="hidden">
+   <label for="prescription-name">Name<input id="prescription-name" maxlength="80" required placeholder="e.g. Neck tension study set"></label>
+   <label for="prescription-description">Description <small>optional</small><textarea id="prescription-description" maxlength="1000" rows="3" placeholder="Purpose, technique notes, or reminders…"></textarea></label>
+   <label for="prescription-points">Points <small>separate with commas or spaces</small><input id="prescription-points" autocapitalize="characters" spellcheck="false" placeholder="GB20, LI4, LU7"></label>
+   <div class="prescription-editor-actions"><button id="add-selected-point" type="button" disabled>Add selected point</button><button id="preview-prescription" type="button">Preview points</button><button id="save-prescription" class="primary" type="button">Save prescription</button></div>
+   <p id="prescription-editor-status" role="status" aria-live="polite"></p>
+  </section>
+  <section class="prescription-section" aria-labelledby="saved-prescriptions-title"><div class="prescription-section-heading"><h3 id="saved-prescriptions-title">Saved</h3><span id="saved-prescription-count">0</span></div><div id="saved-prescriptions" class="prescription-list"></div></section>
+  <section class="prescription-section" aria-labelledby="library-prescriptions-title"><div class="prescription-section-heading"><div><h3 id="library-prescriptions-title">AcuAcu library</h3><small>Textbook and course sources · status shown per record</small></div><span id="library-prescription-count">0</span></div><div id="library-prescriptions" class="prescription-list"></div></section>
+  <p class="prescription-notice">Study reference only. Built-in combinations retain AcuAcu source-review status; custom entries are user-authored. Not individualized treatment advice.</p>
+ </aside>
+</main>
+<script>setTimeout(()=>{const message=document.getElementById('load-text');if(message?.textContent.includes('Preparing')){message.textContent=location.protocol==='file:'?'Open “Open Acu Map Website.cmd” instead of this HTML file.':'Viewer startup failed. Reload to try again.';document.getElementById('retry').hidden=false;}},5000);</script><script type="module" src="./native-main.js"></script>
+</body>
+</html>
