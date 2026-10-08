@@ -9,6 +9,7 @@ A model-first acupuncture point viewer using the same full-screen interface lang
 - A slide-in **Find Point** panel organized by meridian, with one square tile per point
 - Selecting one meridian shows uncluttered floating Chinese names beside its body points
 - Point names are normalized to Simplified Chinese for display and search while preserving the original source data
+- Floating names remain slightly camera-facing above the visible surface and are occluded by the opposite side of the body
 - Selected points keep their body label visible; every point in a prescription shows its Chinese name with a vivid orange pulse highlight
 - Point and meridian-line overlays enabled on startup; unfinished skin zones remain off until explicitly enabled
 - Meridian curves are projected onto the native skin meshes instead of drawing straight point-to-point chords

@@ -17,7 +17,7 @@ export class ViewerEngine {
   this.renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));this.renderer.outputColorSpace=THREE.SRGBColorSpace;this.renderer.toneMapping=THREE.ACESFilmicToneMapping;
   this.controls=new OrbitControls(this.camera,canvas);this.controls.enableDamping=true;
   this.drawing=new DrawingLayer(this.scene,onDrawingEvent,this.camera);this.drawingPointer=null;
-  this.acupuncture=new AcupunctureLayer(this.scene,onSelect,onAcupunctureEdit);this.acupuncturePointer=null;
+  this.acupuncture=new AcupunctureLayer(this.scene,this.camera,onSelect,onAcupunctureEdit);this.acupuncturePointer=null;
   new ResizeObserver(()=>this.updateViewport()).observe(canvas);
   this.clock=new THREE.Clock();this.heartMotion=true;this.heartTime=0;
   this.renderer.setAnimationLoop(()=>{const delta=this.clock.getDelta();if(!document.hidden){if(this.heartMotion)this.updateHeart(delta);this.controls.update();this.renderer.render(this.scene,this.camera);}});
