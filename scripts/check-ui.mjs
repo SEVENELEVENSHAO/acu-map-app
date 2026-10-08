@@ -17,11 +17,14 @@ try {
     await page.waitForSelector('.brand-mark');
     await page.waitForSelector('#loading', { state: 'hidden', timeout: 120_000 });
     await page.locator('#acupuncture-menu summary').click();
+    if (await page.locator('.acupuncture-editor, #acupuncture-edit').count()) throw new Error(`${viewport.name}: point editing controls are still present`);
+    if ((await page.locator('#acupuncture-menu').textContent()).includes('Point adjustment')) throw new Error(`${viewport.name}: point editing copy is still present`);
     if (await page.locator('#acupuncture-zones').getAttribute('aria-pressed') !== 'false') throw new Error(`${viewport.name}: skin zones are enabled by default`);
     if ((await page.locator('#acupuncture-count').textContent()).includes('皮')) throw new Error(`${viewport.name}: skin-zone indicator is visible by default`);
     await page.locator('#acupuncture-zones').click();
     if (!(await page.locator('#acupuncture-count').textContent()).includes('皮')) throw new Error(`${viewport.name}: skin-zone indicator did not turn on`);
     await page.locator('#acupuncture-zones').click();
+    await page.screenshot({ path: path.join(output, `acu-map-${viewport.name}-meridians.png`), fullPage: true });
     await page.locator('#acupuncture-menu summary').click();
     await page.locator('#layers-menu summary').click();
     await page.locator('#section-left').click();
