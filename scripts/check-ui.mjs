@@ -14,6 +14,17 @@ try {
     page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto(url, { waitUntil: 'domcontentloaded' });
+    const labelBehavior = await page.evaluate(async () => {
+      const { pointLabelOpacity, pointLabelZoomScale } = await import('/acupuncture-layer.js');
+      return {
+        faded: pointLabelOpacity(true, false, false),
+        selected: pointLabelOpacity(true, true, false),
+        prescription: pointLabelOpacity(true, false, true),
+        closeZoom: pointLabelZoomScale(18),
+      };
+    });
+    if (labelBehavior.faded > .2 || labelBehavior.selected !== 1 || labelBehavior.prescription !== 1) throw new Error(`${viewport.name}: selected label emphasis is incorrect`);
+    if (labelBehavior.closeZoom > .21) throw new Error(`${viewport.name}: close-zoom point labels are still too large`);
     await page.waitForSelector('.brand-mark');
     await page.waitForSelector('#loading', { state: 'hidden', timeout: 120_000 });
     await page.locator('#acupuncture-menu summary').click();
@@ -65,6 +76,12 @@ try {
     await page.waitForFunction(() => document.querySelector('#point-summary-label')?.textContent === 'Large Intestine 4 · Hégǔ · 合谷');
     if (!(await page.locator('#selection-toggle').getAttribute('aria-label'))?.includes('Both sides selected')) throw new Error(`${viewport.name}: menu selection did not select both sides`);
     if (await page.locator('#selection-drawer').getAttribute('aria-hidden') !== 'true') throw new Error(`${viewport.name}: full details opened without an explicit action`);
+    await page.screenshot({ path: path.join(output, `acu-map-${viewport.name}-selected.png`), fullPage: true });
+    await page.mouse.move(viewport.width / 2, viewport.height / 2);
+    await page.mouse.wheel(0, -1800);
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: path.join(output, `acu-map-${viewport.name}-selected-zoom.png`), fullPage: true });
+    await page.locator('#fit').click();
     await page.locator('#selection-toggle').click();
     await page.waitForSelector('#selection-drawer.is-open');
     await page.waitForFunction(() => document.querySelector('#selected-name')?.textContent === 'Large Intestine 4 · Hégǔ · 合谷');
