@@ -17,9 +17,10 @@ try {
     await page.waitForSelector('.brand-mark');
     await page.waitForSelector('#loading', { state: 'hidden', timeout: 120_000 });
     await page.locator('#acupuncture-menu summary').click();
-    if (await page.locator('#acupuncture-zones').getAttribute('aria-pressed') !== 'true') throw new Error(`${viewport.name}: skin zones are not enabled by default`);
+    if (await page.locator('#acupuncture-zones').getAttribute('aria-pressed') !== 'false') throw new Error(`${viewport.name}: skin zones are enabled by default`);
+    if ((await page.locator('#acupuncture-count').textContent()).includes('皮')) throw new Error(`${viewport.name}: skin-zone indicator is visible by default`);
     await page.locator('#acupuncture-zones').click();
-    if ((await page.locator('#acupuncture-count').textContent()).includes('皮')) throw new Error(`${viewport.name}: skin-zone indicator did not turn off`);
+    if (!(await page.locator('#acupuncture-count').textContent()).includes('皮')) throw new Error(`${viewport.name}: skin-zone indicator did not turn on`);
     await page.locator('#acupuncture-zones').click();
     await page.locator('#acupuncture-menu summary').click();
     await page.locator('#layers-menu summary').click();
@@ -41,6 +42,8 @@ try {
     if (await page.locator('#point-meridians button').count() !== 14) throw new Error(`${viewport.name}: Find Point does not list 14 meridians`);
     await page.locator('#point-meridians button[data-channel="LI"]').click();
     await page.waitForFunction(() => document.querySelector('#point-panel-title')?.textContent === 'Large intestine meridian');
+    if (await page.locator('#acupuncture-channels button[aria-pressed="true"]').count() !== 1) throw new Error(`${viewport.name}: selecting a meridian did not isolate its body points for labels`);
+    if (await page.locator('#acupuncture-channels button[data-channel="LI"]').getAttribute('aria-pressed') !== 'true') throw new Error(`${viewport.name}: selected meridian is not active on the body`);
     const firstTile = page.locator('#structures .point-tile').first();
     const tileBox = await firstTile.boundingBox();
     if (!tileBox || Math.abs(tileBox.width - tileBox.height) > 2) throw new Error(`${viewport.name}: point tiles are not square`);

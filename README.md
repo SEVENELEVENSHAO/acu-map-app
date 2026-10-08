@@ -7,7 +7,9 @@ A model-first acupuncture point viewer using the same full-screen interface lang
 - Full-viewport Male/Female 3D body models extracted from the supplied APK
 - Native point coordinates retained in the same Unity scene space as the bodies
 - A slide-in **Find Point** panel organized by meridian, with one square tile per point
-- Point and meridian overlays enabled on startup
+- Selecting one meridian shows compact point-code and Chinese-name labels beside its body points
+- Selected points keep their body label visible, and prescription points use an orange pulse highlight
+- Point and meridian-line overlays enabled on startup; unfinished skin zones remain off until explicitly enabled
 - Meridian curves are projected onto the native skin meshes instead of drawing straight point-to-point chords
 - Full / Hide L / Hide R section controls reveal the supplied APK's native bones and internal organs together while retaining points and meridians
 - Computed meridian skin zones expand at a consistent average width around each registered surface path, with smoothed borders reprojected onto the skin, and follow channel visibility
