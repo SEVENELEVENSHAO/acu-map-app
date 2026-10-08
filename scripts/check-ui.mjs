@@ -44,9 +44,12 @@ try {
     await page.waitForFunction(() => document.querySelector('#point-panel-title')?.textContent === 'Large intestine meridian');
     if (await page.locator('#acupuncture-channels button[aria-pressed="true"]').count() !== 1) throw new Error(`${viewport.name}: selecting a meridian did not isolate its body points for labels`);
     if (await page.locator('#acupuncture-channels button[data-channel="LI"]').getAttribute('aria-pressed') !== 'true') throw new Error(`${viewport.name}: selected meridian is not active on the body`);
+    if (!(await page.locator('#structures').textContent()).includes('二间') || (await page.locator('#structures').textContent()).includes('二間')) throw new Error(`${viewport.name}: point tiles are not using Simplified Chinese`);
     const firstTile = page.locator('#structures .point-tile').first();
     const tileBox = await firstTile.boundingBox();
     if (!tileBox || Math.abs(tileBox.width - tileBox.height) > 2) throw new Error(`${viewport.name}: point tiles are not square`);
+    await page.locator('#search').fill('二间');
+    await page.waitForFunction(() => document.querySelector('#structures .point-tile strong')?.textContent === 'LI2');
     await page.locator('#search').fill('LI4');
     await page.waitForFunction(() => document.querySelectorAll('#structures .point-tile').length === 1);
     const result = page.locator('#structures .point-tile').first();
